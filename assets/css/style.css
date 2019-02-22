@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .navbar{
@@ -16,6 +17,7 @@ body{
 }
 
 .name{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: white;
     float: left;
@@ -23,6 +25,8 @@ body{
     text-align: center;
     height: 40px;
     padding-top: 10px;
+    font-weight: bold;
+    font-size: 24px
 }
 
 .about, .portfolio, .contact{
@@ -30,7 +34,7 @@ body{
     width: 10%;
     height: 40px;
     color: #777777;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .wrapper{
@@ -45,12 +49,29 @@ body{
 }
 .main_section{
     background-color: white;
-    margin: 3% 20% 5% 20%;
+    padding: 0px 15px;
+    margin: 3% 20% 0% 20%;
     border: solid 3px #dddddd;
+    overflow: hidden;
 }
 
-h1{
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    font-size: 28px;
+    padding-bottom: 25px;
+    border-bottom: solid 3px #dddddd;
+}
+
+.brooding{
+    height: 200px;
+    width: 356px;
+    float: left;
+    margin-right: 15px;
+}
+
+.text{
+    line-height: 24px;
 }
 
 .foot{

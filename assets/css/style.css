@@ -40,6 +40,18 @@ body{
     text-align: center;
 }
 
+.navlink:link, .navlink:visited {
+    background-color: white;
+    color: #777777;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    background-color: #4A91C1;
+    color: white;
+    text-decoration: none;
+  }
+
 .button{
     background-color: #4aaaa5;
     color: white;
@@ -49,17 +61,28 @@ body{
     font-size: 20px;
 }
 
-a:link, a:visited {
-    background-color: white;
-    color: #777777;
-    text-decoration: none;
+.img_and_label{
+    /* height: 100px; */
+    width: 200px;
+    position: relative;
 }
 
-a:hover {
+.thumb{
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+}
+
+.label{
+    height: 30px;
+    width: 200px;
     background-color: #4aaaa5;
+    text-align: center;
     color: white;
-    text-decoration: none;
-  }
+    z-index: 2;
+    position: absolute;
+    bottom: 30;
+}
 
 .wrapper{
     height: 100%;

@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding: auto;
+}
+
+.navbar{
+    
+
+}
+
+.head{
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #ffffff;
+}
+
+.name{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+}
+
+
+
+.about, .portfolio, .contact{
+    /* float: right; */
+    width: 10%;
+    height: 40px;
+    color: #777777;
+    padding-top: 10px;
+}
+
+.wrapper{
+    clear: both;
+    width: 100%;
+    background-color: grey;
+    float: left;
+    z-index: 0;
+}
+
+.main_section{
+    background-color: white;
+    margin: 20%;
+   /*  margin-left: 20%;
+    margin-right: 20%;
+
+    margin-top: 50%;
+    margin-right: 12%; 
+    margin-bottom: 5%;   
+    margin-left: 12%;
+
+     border-style: solid;
+    border-color: grey;
+    border-width: 20px; */ 
+}
+
+h1{
+    color: #4aaaa5;
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    border-top: solid 5px #4aaaa5;
+}

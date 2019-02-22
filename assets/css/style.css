@@ -4,7 +4,8 @@ body{
 }
 
 .navbar{
-    
+    background-color: #ffffff;
+    height: 50px;
 
 }
 
@@ -24,27 +25,29 @@ body{
     padding-top: 10px;
 }
 
+.wrapper{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    background-image: url(../images/prism.png);
+    border-top: 3px solid #cccccc;
 
+
+}
 
 .about, .portfolio, .contact{
-    /* float: right; */
+    float: right;
     width: 10%;
     height: 40px;
     color: #777777;
     padding-top: 10px;
 }
 
-.wrapper{
-    clear: both;
-    width: 100%;
-    background-color: grey;
-    float: left;
-    z-index: 0;
-}
-
 .main_section{
     background-color: white;
     margin: 20%;
+
    /*  margin-left: 20%;
     margin-right: 20%;
 

@@ -62,9 +62,17 @@ body{
 }
 
 .img_and_label{
-    /* height: 100px; */
+    height: 100px;
     width: 200px;
     position: relative;
+}
+
+.thumbwrap{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    float: left;
 }
 
 .thumb{
@@ -74,14 +82,15 @@ body{
 }
 
 .label{
-    height: 30px;
+    height: 20px;
     width: 200px;
     background-color: #4aaaa5;
     text-align: center;
     color: white;
+    padding: 5px 0px 5px 0px;
     z-index: 2;
     position: absolute;
-    bottom: 30;
+    bottom: 10px;
 }
 
 .wrapper{

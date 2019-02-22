@@ -25,6 +25,14 @@ body{
     padding-top: 10px;
 }
 
+.about, .portfolio, .contact{
+    float: right;
+    width: 10%;
+    height: 40px;
+    color: #777777;
+    padding-top: 10px;
+}
+
 .wrapper{
     height: 100%;
     width: 100%;
@@ -35,30 +43,10 @@ body{
 
 
 }
-
-.about, .portfolio, .contact{
-    float: right;
-    width: 10%;
-    height: 40px;
-    color: #777777;
-    padding-top: 10px;
-}
-
 .main_section{
     background-color: white;
-    margin: 20%;
-
-   /*  margin-left: 20%;
-    margin-right: 20%;
-
-    margin-top: 50%;
-    margin-right: 12%; 
-    margin-bottom: 5%;   
-    margin-left: 12%;
-
-     border-style: solid;
-    border-color: grey;
-    border-width: 20px; */ 
+    margin: 3% 20% 5% 20%;
+    border: solid 3px #dddddd;
 }
 
 h1{

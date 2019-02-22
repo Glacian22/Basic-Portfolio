@@ -29,10 +29,11 @@ body{
     font-size: 24px
 }
 
-.about, .portfolio, .contact{
+.contact, .portfolio, .about{
     float: right;
     width: 10%;
     height: 40px;
+    background-color: white;
     color: #777777;
     padding-top: 15px;
 }
